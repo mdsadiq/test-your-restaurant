@@ -17,9 +17,10 @@ Restaurant with pages
     No quantity is required in order page
 
 Actions
-| ACTION_TYPE | Description |
-| ------ | ------ |
-| ADD_TO_ORDER | Add item to user's order |
+
+| ACTION_TYPE | Description
+| ------ | ------
+| ADD_TO_ORDER | Add item to user's order
 
 
 ### Order 
@@ -29,6 +30,7 @@ Actions
     Calculate Total every time an item is added to order
 
 Actions
+
 | ACTION_TYPE | Description |
 | ------ | ------ |
 | REMOVE_FROM_ORDER | Remove item from user's order |
@@ -39,13 +41,14 @@ Actions
 Inventory page should list items available.
 
 Actions
-| Description | ACTION_TYPE |
+
+| ACTION_TYPE | Description |
 | ------ | ------ |
-| Add dish to inventory | ADD_DISH |
-| Remove dish from inventory  | REMOVE_DISH|
-| Change Properties of dih in inventory (ie) Price, Name, Description, image etc | UPDATE_DISH |
-| Change Avialability of dish  | UPDATE_AVAILABILITY|
-| Bulk Upload to inventory  | UPLOAD_DISH|
+| ADD_DISH | Add dish to inventory |
+| REMOVE_DISH | Remove dish from inventory |
+| UPDATE_DISH | Change Properties of dih in inventory (ie) Price, Name, Description, image etc |
+| UPDATE_AVAILABILITY | Change Avialability of dish |
+| UPLOAD_DISH | Bulk Upload to inventory|
 
 Use the available json for bulk upload
 
@@ -57,9 +60,8 @@ Use the available json for bulk upload
     },
     order:[
         {
+            "id":"ITEM001"
             "name": "Creamy Cheesy Pasta",
-            "image": "/images/pasta.jpg",
-            "desc": "Creamy Cheesy Pasta",
             "price": 2250,
             "status": "available"
         },

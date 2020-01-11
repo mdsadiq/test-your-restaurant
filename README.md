@@ -54,7 +54,7 @@ Use the available json for bulk upload
 
 
 ### Store Structure
-```json
+```js
 {
     dishes: {
     },
